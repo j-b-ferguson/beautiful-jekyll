@@ -2,13 +2,16 @@ $(document).ready(function(){
 	typeWords();
 });
 
+var str = new String("Proficient in");
+
 function typeWords() {
 	new Typed(".typedC", {
 		/**
 		* @property {array} strings strings to be typed
 		* @property {string} stringsElement ID of element containing string children
 		*/
-		strings: ['Proficient in R/RStudio', 'Proficient in SAS'],
+		
+		strings: [str.fontcolor( "black" ), 'Proficient in SAS'],
 		stringsElement: null,
 
 		/**
