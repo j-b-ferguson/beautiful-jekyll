@@ -37,7 +37,8 @@ function typeWords() {
 			  kno.fontcolor( "black" ) + "Relational Databases",
 			  kno.fontcolor( "black" ) + "ER Modelling",
 			  kno.fontcolor( "black" ) + "UML",
-			  kno.fontcolor( "black" ) + "Excel Pivot Tables and Charts",
+			  kno.fontcolor( "black" ) + "Excel Pivot Tables",
+			  kno.fontcolor( "black" ) + "Excel Pivot Charts"
 			 ],
 		stringsElement: null,
 
