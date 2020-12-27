@@ -2,7 +2,7 @@ $(document).ready(function(){
 	typeWords();
 });
 
-var pro = new String("Proficient in ");
+var pro = new String("Proficient in ").fontWeight="700";
 var fam = new String("Familiar with ");
 var kno = new String("Knowledgeable in ");
 
