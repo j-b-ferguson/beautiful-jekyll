@@ -16,7 +16,7 @@ h1 {
 	padding-top: 5rem;
 }
 
-h1:after { 
+h1::after { 
 	content: '.';
 	color: #890000; 
 }
