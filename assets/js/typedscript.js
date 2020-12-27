@@ -14,7 +14,7 @@ function typeWords() {
 		/**
 		* @property {number} typeSpeed type speed in milliseconds
 		*/
-		typeSpeed: 100,
+		typeSpeed: 10000,
 
 		/**
 		* @property {number} startDelay time before typing starts in milliseconds
