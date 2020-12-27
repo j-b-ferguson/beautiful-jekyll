@@ -3,8 +3,6 @@ $(document).ready(function(){
 });
 
 var pro = new String("Proficient in ");
-var proN = pro.fontWeight = 'bold';
-
 var fam = new String("Familiar with ");
 var kno = new String("Knowledgeable in ");
 
@@ -15,7 +13,7 @@ function typeWords() {
 		* @property {string} stringsElement ID of element containing string children
 		*/
 		
-		strings: [proN.fontcolor( "black" ) + "R/RStudio", 
+		strings: [proN.fontcolor( "black" ) + "R/RStudio".strong(), 
 			  pro.fontcolor( "black" ) + "SAS", 
 			  pro.fontcolor( "black" ) + "SQL", 
 			  pro.fontcolor( "black" ) + "Excel",
