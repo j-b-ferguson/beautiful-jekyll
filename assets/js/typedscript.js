@@ -14,7 +14,7 @@ function typeWords() {
 		/**
 		* @property {number} typeSpeed type speed in milliseconds
 		*/
-		typeSpeed: 10000,
+		typeSpeed: 0,
 
 		/**
 		* @property {number} startDelay time before typing starts in milliseconds
@@ -39,7 +39,7 @@ function typeWords() {
 		/**
 		* @property {number} backDelay time before backspacing in milliseconds
 		*/
-		backDelay: 1000,
+		backDelay: 0,
 
 		/**
 		* @property {boolean} fadeOut Fade out instead of backspace
