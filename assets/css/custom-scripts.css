@@ -21,6 +21,11 @@ h1::after {
 	color: #890000; 
 }
 
+.page-subheading::after {
+	content: '.';
+	color: #890000; 
+}
+
 .list-filters {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.125rem;
