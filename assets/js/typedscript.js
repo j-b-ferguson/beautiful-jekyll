@@ -2,7 +2,9 @@ $(document).ready(function(){
 	typeWords();
 });
 
-var pro = new String("Proficient in ").fontWeight="700";
+var pro = TextBox.innerHTML = "Proficient in ";
+var proN = pro.style.fontWeight = 'bold';
+
 var fam = new String("Familiar with ");
 var kno = new String("Knowledgeable in ");
 
@@ -13,32 +15,32 @@ function typeWords() {
 		* @property {string} stringsElement ID of element containing string children
 		*/
 		
-		strings: [pro.fontcolor( "black" ) + "R/RStudio".bold(), 
-			  pro.fontcolor( "black" ) + "SAS".bold(), 
-			  pro.fontcolor( "black" ) + "SQL".bold(), 
-			  pro.fontcolor( "black" ) + "Excel".bold(),
-			  fam.fontcolor( "black" ) + "Python".bold(),
-			  fam.fontcolor( "black" ) + "HTML5".bold(),
-			  fam.fontcolor( "black" ) + "CSS".bold(),
-			  fam.fontcolor( "black" ) + "JavaScript".bold(),
-			  fam.fontcolor( "black" ) + "Git/GitHub".bold(),
-			  kno.fontcolor( "black" ) + "Mathematics and Science".bold(),
-			  kno.fontcolor( "black" ) + "Mathematical Modelling".bold(),
-			  kno.fontcolor( "black" ) + "Statistical Testing".bold(),
-			  kno.fontcolor( "black" ) + "Statistical Methods".bold(),
-			  kno.fontcolor( "black" ) + "Machine Learning".bold(),
-			  kno.fontcolor( "black" ) + "Tidy Data Principles".bold(),
-			  kno.fontcolor( "black" ) + "Data Cleaning".bold(),
-			  kno.fontcolor( "black" ) + "Data Visualisation".bold(),
-			  kno.fontcolor( "black" ) + "Data Analysis".bold(),
-			  kno.fontcolor( "black" ) + "Data Management".bold(),
-			  kno.fontcolor( "black" ) + "SQL Queries".bold(),
-			  kno.fontcolor( "black" ) + "The Relational Model".bold(),
-			  kno.fontcolor( "black" ) + "Relational Databases".bold(),
-			  kno.fontcolor( "black" ) + "ER Modelling".bold(),
-			  kno.fontcolor( "black" ) + "UML".bold(),
-			  kno.fontcolor( "black" ) + "Excel Pivot Tables".bold(),
-			  kno.fontcolor( "black" ) + "Excel Pivot Charts".bold()
+		strings: [proN.fontcolor( "black" ) + "R/RStudio", 
+			  pro.fontcolor( "black" ) + "SAS", 
+			  pro.fontcolor( "black" ) + "SQL", 
+			  pro.fontcolor( "black" ) + "Excel",
+			  fam.fontcolor( "black" ) + "Python",
+			  fam.fontcolor( "black" ) + "HTML5",
+			  fam.fontcolor( "black" ) + "CSS",
+			  fam.fontcolor( "black" ) + "JavaScript",
+			  fam.fontcolor( "black" ) + "Git/GitHub",
+			  kno.fontcolor( "black" ) + "Mathematics and Science",
+			  kno.fontcolor( "black" ) + "Mathematical Modelling",
+			  kno.fontcolor( "black" ) + "Statistical Testing",
+			  kno.fontcolor( "black" ) + "Statistical Methods",
+			  kno.fontcolor( "black" ) + "Machine Learning",
+			  kno.fontcolor( "black" ) + "Tidy Data Principles",
+			  kno.fontcolor( "black" ) + "Data Cleaning",
+			  kno.fontcolor( "black" ) + "Data Visualisation",
+			  kno.fontcolor( "black" ) + "Data Analysis",
+			  kno.fontcolor( "black" ) + "Data Management",
+			  kno.fontcolor( "black" ) + "SQL Queries",
+			  kno.fontcolor( "black" ) + "The Relational Model",
+			  kno.fontcolor( "black" ) + "Relational Databases",
+			  kno.fontcolor( "black" ) + "ER Modelling",
+			  kno.fontcolor( "black" ) + "UML",
+			  kno.fontcolor( "black" ) + "Excel Pivot Tables",
+			  kno.fontcolor( "black" ) + "Excel Pivot Charts"
 			 ],
 		stringsElement: null,
 
