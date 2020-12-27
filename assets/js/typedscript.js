@@ -8,7 +8,7 @@ function typeWords() {
 		* @property {array} strings strings to be typed
 		* @property {string} stringsElement ID of element containing string children
 		*/
-		strings: ['random', 'asas'],
+		strings: ['Proficient in R/RStudio', 'Proficient in SAS'],
 		stringsElement: null,
 
 		/**
