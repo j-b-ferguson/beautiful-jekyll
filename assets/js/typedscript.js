@@ -2,7 +2,7 @@ $(document).ready(function(){
 	typeWords();
 });
 
-var pro = TextBox.innerHTML = "Proficient in ";
+var pro = new String("Proficient in ");
 var proN = pro.style.fontWeight = 'bold';
 
 var fam = new String("Familiar with ");
