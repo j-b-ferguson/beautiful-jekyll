@@ -26,6 +26,7 @@ h1::after {
   	line-height: 1.1;
   	display: block;
   	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 300;
   	margin: 0.625rem 0 0;
 }
 
