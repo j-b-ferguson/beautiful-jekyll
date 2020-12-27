@@ -2,7 +2,19 @@ $(document).ready(function(){
 	typeWords();
 });
 
-var str = new String("Proficient in");
+var pro = new String("Proficient in");
+var fam = new String("Familiar with");
+var kno = new String("Knowledgeable in");
+
+var rstudio = new String("R/RStudio");
+var sas = new String("SAS");
+var sql = new String("SQL");
+var excel new String("Excel");
+
+var python = new String("Python");
+var html5 = new String("HTML5");
+var css = new String("CSS");
+var javascript = new String("JavaScript");
 
 function typeWords() {
 	new Typed(".typedC", {
@@ -11,7 +23,7 @@ function typeWords() {
 		* @property {string} stringsElement ID of element containing string children
 		*/
 		
-		strings: [str.fontcolor( "black" ), 'Proficient in SAS'],
+		strings: [pro.fontcolor( "black" ) + "R/RStudio", pro.fontcolor( "black" ) + "SAS", pro.fontcolor( "black" ) + "SQL, pro.fontcolor( "black" ) + "Excel"],
 		stringsElement: null,
 
 		/**
