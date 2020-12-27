@@ -6,6 +6,10 @@ var pro = new String("Proficient in ");
 var fam = new String("Familiar with ");
 var kno = new String("Knowledgeable in ");
 
+var proN = pro.style.fontWeight="300";
+var famN = fam.style.fontWeight="300";
+var knoN = kno.style.fontWeight="300";
+
 function typeWords() {
 	new Typed(".typedC", {
 		/**
@@ -13,32 +17,32 @@ function typeWords() {
 		* @property {string} stringsElement ID of element containing string children
 		*/
 		
-		strings: [pro.fontcolor( "black" ) + "R/RStudio", 
-			  pro.fontcolor( "black" ) + "SAS", 
-			  pro.fontcolor( "black" ) + "SQL", 
-			  pro.fontcolor( "black" ) + "Excel",
-			  fam.fontcolor( "black" ) + "Python",
-			  fam.fontcolor( "black" ) + "HTML5",
-			  fam.fontcolor( "black" ) + "CSS",
-			  fam.fontcolor( "black" ) + "JavaScript",
-			  fam.fontcolor( "black" ) + "Git/GitHub",
-			  kno.fontcolor( "black" ) + "Mathematics and Science",
-			  kno.fontcolor( "black" ) + "Mathematical Modelling",
-			  kno.fontcolor( "black" ) + "Statistical Testing",
-			  kno.fontcolor( "black" ) + "Statistical Methods",
-			  kno.fontcolor( "black" ) + "Machine Learning",
-			  kno.fontcolor( "black" ) + "Tidy Data Principles",
-			  kno.fontcolor( "black" ) + "Data Cleaning",
-			  kno.fontcolor( "black" ) + "Data Visualisation",
-			  kno.fontcolor( "black" ) + "Data Analysis",
-			  kno.fontcolor( "black" ) + "Data Management",
-			  kno.fontcolor( "black" ) + "SQL Queries",
-			  kno.fontcolor( "black" ) + "The Relational Model",
-			  kno.fontcolor( "black" ) + "Relational Databases",
-			  kno.fontcolor( "black" ) + "ER Modelling",
-			  kno.fontcolor( "black" ) + "UML",
-			  kno.fontcolor( "black" ) + "Excel Pivot Tables",
-			  kno.fontcolor( "black" ) + "Excel Pivot Charts"
+		strings: [proN.fontcolor( "black" ) + "R/RStudio".style.fontWeight="700", 
+			  proN.fontcolor( "black" ) + "SAS".style.fontWeight="700", 
+			  proN.fontcolor( "black" ) + "SQL".style.fontWeight="700", 
+			  proN.fontcolor( "black" ) + "Excel".style.fontWeight="700",
+			  famN.fontcolor( "black" ) + "Python".style.fontWeight="700",
+			  famN.fontcolor( "black" ) + "HTML5".style.fontWeight="700",
+			  famN.fontcolor( "black" ) + "CSS".style.fontWeight="700",
+			  famN.fontcolor( "black" ) + "JavaScript".style.fontWeight="700",
+			  famN.fontcolor( "black" ) + "Git/GitHub".style.fontWeight="700",
+			  knoN.fontcolor( "black" ) + "Mathematics and Science".style.fontWeight="700",
+			  knoN.fontcolor( "black" ) + "Mathematical Modelling".style.fontWeight="700",
+			  knoN.fontcolor( "black" ) + "Statistical Testing".style.fontWeight="700",
+			  knoN.fontcolor( "black" ) + "Statistical Methods".style.fontWeight="700",
+			  knoN.fontcolor( "black" ) + "Machine Learning".style.fontWeight="700",
+			  knoN.fontcolor( "black" ) + "Tidy Data Principles".style.fontWeight="700",
+			  knoN.fontcolor( "black" ) + "Data Cleaning".style.fontWeight="700",
+			  knoN.fontcolor( "black" ) + "Data Visualisation".style.fontWeight="700",
+			  knoN.fontcolor( "black" ) + "Data Analysis".style.fontWeight="700",
+			  knoN.fontcolor( "black" ) + "Data Management".style.fontWeight="700",
+			  knoN.fontcolor( "black" ) + "SQL Queries".style.fontWeight="700",
+			  knoN.fontcolor( "black" ) + "The Relational Model".style.fontWeight="700",
+			  knoN.fontcolor( "black" ) + "Relational Databases".style.fontWeight="700",
+			  knoN.fontcolor( "black" ) + "ER Modelling".style.fontWeight="700",
+			  knoN.fontcolor( "black" ) + "UML".style.fontWeight="700",
+			  knoN.fontcolor( "black" ) + "Excel Pivot Tables".style.fontWeight="700",
+			  knoN.fontcolor( "black" ) + "Excel Pivot Charts".style.fontWeight="700"
 			 ],
 		stringsElement: null,
 
