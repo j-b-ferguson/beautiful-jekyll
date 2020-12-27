@@ -7,14 +7,12 @@ js: /assets/js/typed.js
 ---
 
 <script>
-  require('/assets/js/typed.js');
-  var Typed = require('/assets/js/typed.min.js');
-  var typed = new Typed('#typed', {
-    stringsElement: '#typed-strings'
-  });
+import Typed from 'typed.js';
+
+var options = {
+  strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+  typeSpeed: 40
+};
+
+var typed = new Typed('.element', options);
 </script>
-<div id="typed-strings">
-  <p>Typed.js is a <strong>JavaScript</strong> library.</p>
-  <p>It <em>types</em> out sentences.</p>
-</div>
-<span id="typed"></span>
