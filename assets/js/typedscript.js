@@ -23,7 +23,7 @@ function typeWords() {
 		* @property {string} stringsElement ID of element containing string children
 		*/
 		
-		strings: [pro.fontcolor( "black" ) + "R/RStudio", pro.fontcolor( "black" ) + "SAS", pro.fontcolor( "black" ) + "SQL, pro.fontcolor( "black" ) + "Excel"],
+		strings: [pro.fontcolor( "black" ) + "R/RStudio", pro.fontcolor( "black" ) + "SAS", pro.fontcolor( "black" ) + "SQL", pro.fontcolor( "black" ) + "Excel"],
 		stringsElement: null,
 
 		/**
