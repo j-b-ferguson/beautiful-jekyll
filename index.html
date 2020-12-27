@@ -7,7 +7,8 @@ js: /assets/js/typed.js
 ---
 
 <script>
-  var typed = require('typed.js');
+  require('/assets/js/typed.js');
+  var Typed = require(typed.min.js);
   var typed = new Typed('#typed', {
     stringsElement: '#typed-strings'
   });
