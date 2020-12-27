@@ -9,7 +9,7 @@ var kno = new String("Knowledgeable in");
 var rstudio = new String("R/RStudio");
 var sas = new String("SAS");
 var sql = new String("SQL");
-var excel new String("Excel");
+var excel = new String("Excel");
 
 var python = new String("Python");
 var html5 = new String("HTML5");
