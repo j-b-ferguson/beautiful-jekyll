@@ -8,13 +8,13 @@ function typeWords() {
 		* @property {array} strings strings to be typed
 		* @property {string} stringsElement ID of element containing string children
 		*/
-		strings: ['R/RStudio', 'SQL', 'SAS'],
+		strings: ['R/RStudio', 'SQL', 'SAS', 'Python', 'Data'],
 		stringsElement: null,
 
 		/**
 		* @property {number} typeSpeed type speed in milliseconds
 		*/
-		typeSpeed: 0,
+		typeSpeed: 100,
 
 		/**
 		* @property {number} startDelay time before typing starts in milliseconds
@@ -39,7 +39,7 @@ function typeWords() {
 		/**
 		* @property {number} backDelay time before backspacing in milliseconds
 		*/
-		backDelay: 0,
+		backDelay: 1000,
 
 		/**
 		* @property {boolean} fadeOut Fade out instead of backspace
