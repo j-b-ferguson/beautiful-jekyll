@@ -16,13 +16,9 @@ h1 {
 	padding-top: 5rem;
 }
 
-h1 {
-    unicode-bidi:bidi-override;
-    direction:rtl;
-}
-
-h1::first-letter {
-    color: #890000;
+h1:after { 
+	content: '.';
+	color: #890000; 
 }
 
 .list-filters {
