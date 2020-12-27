@@ -16,6 +16,15 @@ h1 {
 	padding-top: 5rem;
 }
 
+h1 {
+    unicode-bidi:bidi-override;
+    direction:rtl;
+}
+
+h1::first-letter {
+    color: blue;
+}
+
 .list-filters {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.125rem;
