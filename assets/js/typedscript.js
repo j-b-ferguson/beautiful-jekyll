@@ -3,7 +3,7 @@ $(document).ready(function(){
 });
 
 var pro = new String("Proficient in ");
-var proN = pro.style.fontWeight = 'bold';
+var proN = pro.fontWeight = 'bold';
 
 var fam = new String("Familiar with ");
 var kno = new String("Knowledgeable in ");
