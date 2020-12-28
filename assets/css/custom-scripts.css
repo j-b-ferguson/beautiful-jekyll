@@ -72,12 +72,12 @@ h1::after {
   position: relative;
   margin: 0 auto;
   width: 2px;
-  padding-bottom: 0px;
+  padding-bottom: 40px;
   list-style-type: none;
 }
 
 .timeline ul li:last-child {
-  padding-bottom: 0px;
+  padding-bottom: 7px;
 }
 
 .timeline ul li:before {
@@ -116,7 +116,7 @@ h1::after {
 
 .timeline ul li .content p {
   text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 
 .timeline ul li .content p b {
@@ -138,7 +138,6 @@ h1::after {
 .timeline ul li:nth-child(even) .content:before {
   right: -38px;
 }
-
 @media screen and (max-width: 1020px) {
   .timeline ul li .content {
     width: 41vw;
@@ -152,18 +151,15 @@ h1::after {
   .timeline ul li {
     margin-left: 20px;
   }
-	
-.timeline ul li .content {
+  .timeline ul li .content {
     width: calc(100vw - 100px);
   }
-	
   .timeline ul li .content h2 {
     text-align: initial;
   }
   .timeline ul li:nth-child(even) .content {
     left: 45px;
   }
-	
   .timeline ul li:nth-child(even) .content:before {
     left: -33px;
   }
