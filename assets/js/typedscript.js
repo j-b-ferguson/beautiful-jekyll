@@ -180,3 +180,5 @@ function typeWords() {
 		onDestroy: (self) => {}
 	});
 }
+
+$( ".typedC:contains('Proficient')").css( "text-decoration", "underline" );	
