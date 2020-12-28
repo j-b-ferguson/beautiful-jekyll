@@ -27,7 +27,11 @@ h1::after {
 }
 
 .small {
-	color: #890000; 
+	color: #404040; 
+}
+
+.page-subheading {
+	color: #404040;
 }
 
 .like-sub {
