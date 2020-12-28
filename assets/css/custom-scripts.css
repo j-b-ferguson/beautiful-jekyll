@@ -27,11 +27,13 @@ h1::after {
 }
 
 .small {
-	color: #404040; 
+	color: #404040;
+	text-shadow: none;
 }
 
 .page-subheading {
 	color: #404040;
+	text-shadow: none;
 }
 
 .like-sub {
