@@ -26,6 +26,10 @@ h1::after {
 	color: #890000; 
 }
 
+.small {
+	color: #890000; 
+}
+
 .like-sub {
 	font-size: 1.6875rem;
   	line-height: 1.1;
