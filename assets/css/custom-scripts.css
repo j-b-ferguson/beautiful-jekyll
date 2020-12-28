@@ -29,11 +29,13 @@ h1::after {
 .small {
 	color: #404040;
 	text-shadow: none;
+	box-shadow: none;
 }
 
 hr {
 	color: #404040;
 	text-shadow: none;
+	box-shadow: none;
 }
 
 .page-subheading {
