@@ -86,7 +86,7 @@ h1::after {
 
 .timeline ul li:before {
   content: '';
-  background: #8490ff;
+  background: #890000;
   position: absolute;
   left: 50%;
   top: 40%;
