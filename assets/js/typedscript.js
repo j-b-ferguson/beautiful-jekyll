@@ -181,4 +181,4 @@ function typeWords() {
 	});
 }
 
-$( ".typedC:contains('Proficient')").css( "text-decoration", "underline" );	
+$( "span:contains('Proficient')").css( "text-decoration", "underline" );	
