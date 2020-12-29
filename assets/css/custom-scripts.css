@@ -57,6 +57,11 @@ h1::after {
   	margin: 0.625rem 0 0;
 }
 
+.like-sub {
+	float: left;
+	font-size: 5em;
+}
+
 .list-filters {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.125rem;
