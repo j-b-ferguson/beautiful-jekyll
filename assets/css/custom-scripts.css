@@ -48,7 +48,7 @@ h1::after {
   margin-bottom: 1rem;
 }
 
-.like-sub {
+.like-sub-p .like-sub-typed {
 	font-size: 1.6875rem;
   	line-height: 1.1;
   	display: block;
@@ -57,9 +57,9 @@ h1::after {
   	margin: 0.625rem 0 0;
 }
 
-.like-sub::first-letter {
-	float: left;
-	font-size: 5em;
+.like-sub-p::first-letter {
+	  float: left;
+	  font-size: 5em;
 }
 
 .list-filters {
