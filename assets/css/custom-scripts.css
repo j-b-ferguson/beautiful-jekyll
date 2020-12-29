@@ -44,6 +44,12 @@ hr.small {
 	box-shadow: none;
 }
 
+.intro-header.big-img .page-heading hr {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
 .header-section.has-img .no-img {
   margin-top: 0;
   background-color: #404040;
