@@ -44,10 +44,6 @@ h1::after {
   	text-shadow: 1px 1px 3px #000;
 }
 
-.header-section.has-img .no-img {
-  padding-bottom: 0px;
-}
-
 .first-letter {
   	font-size: 35px;
 }
