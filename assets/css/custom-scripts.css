@@ -51,6 +51,13 @@ hr {
 	text-shadow: none;
 }
 
+.intro-header.big-img .page-heading,
+.intro-header.big-img .post-heading {
+  padding: 6.25rem 0;
+  color: #404040;
+  text-shadow: none;
+}
+
 .like-sub {
 	font-size: 1.6875rem;
   	line-height: 1.1;
