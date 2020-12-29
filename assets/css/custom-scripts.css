@@ -60,7 +60,7 @@ h1::after {
 .like-sub-p::first-letter {
 	  float: left;
 	  font-size: 5em;
-	  margin: 0 .15rem 0 0;
+	  margin: 0 .2rem 0 0;
 }
 
 .like-sub-typed {
