@@ -26,24 +26,6 @@ h1::after {
 	color: #890000; 
 }
 
-.small {
-	color: #404040;
-	text-shadow: none;
-	box-shadow: none;
-}
-
-hr {
-	color: #404040;
-	text-shadow: none;
-	box-shadow: none;
-}
-
-hr.small {
-	color: #404040;
-	text-shadow: none;
-	box-shadow: none;
-}
-
 .intro-header.big-img .page-heading hr {
   box-shadow: none;
   -webkit-box-shadow: none;
