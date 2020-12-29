@@ -32,14 +32,6 @@ h1::after {
   -moz-box-shadow: none;
 }
 
-.header-section.has-img .no-img {
-  margin-top: 0;
-  background-color: #404040;
-  margin: 0 0 2.5rem;
-  padding: 1.25rem 0;
-  box-shadow: none;
-}
-
 .page-subheading {
 	color: #404040;
 	text-shadow: none;
