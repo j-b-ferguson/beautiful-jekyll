@@ -48,8 +48,8 @@ h1::after {
   margin-bottom: 1rem;
 }
 
-.first-letter {
-  	font-size: 35px;
+.big-letter::first-letter {
+  initial-letter: 2;
 }
 
 .like-sub {
