@@ -57,7 +57,7 @@ h1::after {
   	margin: 0.625rem 0 0;
 }
 
-.like-sub {
+.like-sub::first-letter {
 	float: left;
 	font-size: 5em;
 }
