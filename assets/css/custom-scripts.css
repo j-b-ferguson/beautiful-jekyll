@@ -38,6 +38,12 @@ hr {
 	box-shadow: none;
 }
 
+hr.small {
+	color: #404040;
+	text-shadow: none;
+	box-shadow: none;
+}
+
 .header-section.has-img .no-img {
   margin-top: 0;
   background-color: #404040;
