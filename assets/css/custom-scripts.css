@@ -41,7 +41,7 @@ h1::after {
 .intro-header.big-img .post-heading {
   padding: 6.25rem 0;
   color: #404040;
-  text-shadow: none;
+  text-shadow: 1px 1px 3px #000;
 }
 
 .like-sub {
