@@ -48,10 +48,6 @@ h1::after {
   margin-bottom: 1rem;
 }
 
-.big-letter::first-letter {
-  initial-letter: 2;
-}
-
 .like-sub {
 	font-size: 1.6875rem;
   	line-height: 1.1;
