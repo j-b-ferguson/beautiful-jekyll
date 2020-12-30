@@ -8,10 +8,6 @@ body {
 	flex-direction: column;
 }
 
-img {
-	border: 1px solid #eee;
-}
-
 footer {
 	margin-top: auto;
 }
