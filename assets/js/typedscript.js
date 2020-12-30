@@ -13,7 +13,7 @@ function typeWords() {
 		* @property {string} stringsElement ID of element containing string children
 		*/
 		
-		strings: [pro.fontcolor( "black" ) + document.write("<p style='font-weight:900;'>R/RStudio</p>"), 
+		strings: [pro.fontcolor( "black" ) + document.write("<p style='color:blue;'>R/RStudio</p>"), 
 			  pro.fontcolor( "black" ) + "SAS", 
 			  pro.fontcolor( "black" ) + "SQL", 
 			  pro.fontcolor( "black" ) + "Excel",
