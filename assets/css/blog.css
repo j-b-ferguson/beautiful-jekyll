@@ -1,0 +1,66 @@
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+	margin-top: auto;
+}
+
+h1 {
+	padding-top: 5rem;
+	color: #404040;
+}
+
+h1::after { 
+	content: '.';
+	color: #890000; 
+}
+
+.intro-header.big-img .page-heading hr {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+.page-subheading {
+	color: #404040;
+	text-shadow: none;
+}
+
+.intro-header.big-img .page-heading,
+.intro-header.big-img .post-heading {
+	padding: 6.25rem 0;
+  	color: #404040;
+  	text-shadow: 1px 1px 3px #000;
+}
+
+.intro-header.big-img {
+  margin-bottom: 1rem;
+}
+
+.like-sub-p {
+	font-size: 1.125rem;
+	padding-top:0px;
+	text-align:justify;
+	margin-top:0%;
+  	line-height: 1.5;
+  	display: block;
+  	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+  	margin: 0.625rem 0 0;
+}
+
+.like-sub-typed {
+	font-size: 1.375rem;
+  	line-height: 1.1;
+  	display: block;
+  	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+  	margin: 0.625rem 0 0;	
+}
