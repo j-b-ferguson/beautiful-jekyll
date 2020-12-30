@@ -13,9 +13,9 @@ function typeWords() {
 		* @property {string} stringsElement ID of element containing string children
 		*/
 		
-		strings: [pro.fontcolor( "black" ) + "<span style='color:blue;'>R/RStudio</span>", 
-			  pro.fontcolor( "black" ) + "SAS", 
-			  pro.fontcolor( "black" ) + "SQL", 
+		strings: [pro.fontcolor( "black" ) + "<span style='font-weight:900;'>R/RStudio</span>", 
+			  pro.fontcolor( "black" ) + "<span style='font-weight:900;'>SAS</span>", 
+			  pro.fontcolor( "black" ) + "<span style='font-weight:900;'>SQL</span>", 
 			  pro.fontcolor( "black" ) + "Excel",
 			  fam.fontcolor( "black" ) + "Python",
 			  fam.fontcolor( "black" ) + "HTML5",
