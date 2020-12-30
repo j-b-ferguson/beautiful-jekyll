@@ -57,12 +57,6 @@ h1::after {
   	margin: 0.625rem 0 0;
 }
 
-.like-sub-p::first-letter {
-	  float: left;
-	  font-size: 5em;
-	  margin: 0 1rem 0 0;
-}
-
 .like-sub-typed {
 	font-size: 1.6875rem;
   	line-height: 1.1;
