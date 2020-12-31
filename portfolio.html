@@ -4,9 +4,9 @@ title: My Portfolio
 subtitle: Justin Ferguson
 css: /assets/css/portfolio.css
 cover-img: /assets/img/portfolio.svg
-port-171220-tags: [Database, Relational Databases, Relational Model, SQL, SQL Query, Oracle Database, SQL Developer, Entity-Relationship Model, Entity-Relationship Diagram, ER Model, ER Diagram, UML, UML Diagram, Normalisation, Business Modelling, Entity-Relationship Model, Functional Dependencies, Business Rules, Sample Data, Data Science, Data]
-port-101220-tags: [Data Science, Data Analysis, Data Visualisation, Report, Analytics, SAS, SAS Enterprise Guide, SAS Studio, SQL, Big Data, Statistics, Statistical Analysis, Statistical Tests, Statistical Methods]
-port-021220-tags: [R, RStudio, Data Cleaning, Data Processing, Data Visualisation, Data Science, Machine Learning, Tidy Data Principles, Imputation, Data Analysis, Statistics, ggplot2, K-nearest neighbours, Algorithms, Data Structures]
+port-171220-topics: [Database, Relational Databases, Relational Model, SQL, SQL Query, Oracle Database, SQL Developer, Entity-Relationship Model, Entity-Relationship Diagram, ER Model, ER Diagram, UML, UML Diagram, Normalisation, Business Modelling, Entity-Relationship Model, Functional Dependencies, Business Rules, Sample Data, Data Science, Data]
+port-101220-topics: [Data Science, Data Analysis, Data Visualisation, Report, Analytics, SAS, SAS Enterprise Guide, SAS Studio, SQL, Big Data, Statistics, Statistical Analysis, Statistical Tests, Statistical Methods]
+port-021220-topics: [R, RStudio, Data Cleaning, Data Processing, Data Visualisation, Data Science, Machine Learning, Tidy Data Principles, Imputation, Data Analysis, Statistics, ggplot2, K-nearest neighbours, Algorithms, Data Structures]
 ---
 
 <section>
@@ -33,10 +33,9 @@ port-021220-tags: [R, RStudio, Data Cleaning, Data Processing, Data Visualisatio
                      The Happy Phone Company is a fictitious retailer of various makes and models of mobile phones. The business requires a new database to help manage data concerning employees, customers, suppliers, phones and contracts.
                      <a href="https://github.com/j-b-ferguson/relational-database-design-and-test" class="post-read-more">[Read&nbsp;More]</a>
                   </div>
-                  <div class="blog-tags" style="text-align: justify;">
-                        <span>Tags:</span>
-                        {% for port-171220-tag in page.port-171220-tags %}
-                        <a href="/tags#{{ port-171220-tag }}">{{ port-171220-tag }}</a>
+                  <div class="topics">
+                        {% for port-171220-topic in page.port-171220-topics %}
+                        {{ port-171220-topic }}
                         {% endfor %}
                   </div>
                </article>           
@@ -60,10 +59,9 @@ port-021220-tags: [R, RStudio, Data Cleaning, Data Processing, Data Visualisatio
                      The analysis of data on past weather events is a vitally important process to understand, predict, and plan for future events. Of particular importance is to better understand the impact that storm events may have on property, crops, and human life.
                      <a href="https://github.com/j-b-ferguson/usa-storm-events-2019-data-analysis" class="post-read-more">[Read&nbsp;More]</a>
                   </div>
-                  <div class="blog-tags" style="text-align:justify;">
-                     <span>Tags:</span>
+                  <div class="topics">
                      {% for port-101220-tag in page.port-101220-tags %}
-                     <a href="/tags#{{ port-101220-tag }}">{{ port-101220-tag }}</a>
+                     {{ port-101220-tag }}
                      {% endfor %}
                   </div>
                </article>
@@ -87,10 +85,9 @@ port-021220-tags: [R, RStudio, Data Cleaning, Data Processing, Data Visualisatio
                      This notebook brings together data of worldwide COVID-19 cases and Australian COVID-19 testing. Through a series of pre-processing steps, the data is filtered for cases and tests relevant to Australian states. It is then tidied, scanned, and transformed, as required.
                      <a href="https://github.com/j-b-ferguson/covid-19-australia-preprocessing" class="post-read-more">[Read&nbsp;More]</a>
                   </div>
-                  <div class="blog-tags" style="text-align:justify;">
-                     <span>Tags:</span>
+                  <div class="topics">
                      {% for port-021220-tag in page.port-021220-tags %}
-                     <a href="/tags#{{ port-021220-tag }}">{{ port-021220-tag }}</a>
+                     {{ port-021220-tag }}
                      {% endfor %}
                   </div>
                </article>
