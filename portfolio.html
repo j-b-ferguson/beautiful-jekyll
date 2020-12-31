@@ -57,7 +57,7 @@ port1tags: [test1, test2]
                   </div>
                   <div class="blog-tags">
                      {% for port1tag in page.port1tags %}
-                     <a href="/tags{{ #port1tag }}/">{{ port1tag }}</a>
+                     <a href="/tags#{{ port1tag }}/">{{ port1tag }}</a>
                      {% endfor %}
                   </div>
                </article>
