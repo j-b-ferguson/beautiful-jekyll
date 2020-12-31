@@ -20,10 +20,10 @@ title: 'Tag Index'
 {%- for tag in tags_list -%}
     <h2 id="{{- tag -}}" class="linked-section">
         <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})
+        &nbsp;{{- tag -}}&nbsp;({{site.port-171220-tags[tag].size}})
     </h2>
     <div class="post-list">
-        {%- for post in site.tags[tag] -%}
+        {%- for post in site.port-171220-tags[tag] -%}
             <div class="tag-entry">
                 <a href="{{ post.url | relative_url }}">{{- post.title -}}</a>
                 <div class="entry-date">
