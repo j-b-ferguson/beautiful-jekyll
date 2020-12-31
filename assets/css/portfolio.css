@@ -73,6 +73,18 @@ h1::after {
   text-align: justify;
 }
 
+.post-preview {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.post-preview .post-meta {
+  color: #808080;
+  font-size: 1.125rem;
+  font-style: italic;
+  margin: 0 0 0.625rem;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 
 
 
