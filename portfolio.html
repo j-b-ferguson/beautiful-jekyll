@@ -31,10 +31,12 @@ port-171220-tags: [Database, Relational Databases, Relational Model, SQL, SQL Qu
                      The Happy Phone Company is a fictitious retailer of various makes and models of mobile phones. The business requires a new database to help manage data concerning employees, customers, suppliers, phones and contracts.
                      <a href="https://github.com/j-b-ferguson/relational-database-design-and-test" class="post-read-more">[Read&nbsp;More]</a>
                   </div>
-                  <div class="blog-tags" style="text-align:justify;">
-                     {% for port-171220-tag in page.port-171220-tags %}
-                     <a href="/tags#{{ port-171220-tag }}" style="text-align:justify;">{{ port-171220-tag }}</a>
-                     {% endfor %}
+                  <div class="blog-tags">
+                     <span style="text-align: justify;">
+                        {% for port-171220-tag in page.port-171220-tags %}
+                        <a href="/tags#{{ port-171220-tag }}">{{ port-171220-tag }}</a>
+                        {% endfor %}
+                     </span>
                   </div>
                </article>
                
