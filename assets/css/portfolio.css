@@ -85,11 +85,30 @@ h1::after {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.posts-list {
+  margin-top:0px;
+  padding-top:0px;
+}
 
+.container-md {
+  padding-top:1rem;
+}
 
+.post-title {
+  margin-top:0px;
+  padding-top:0px;
+  text-align:justify;
+}
 
+.page-subtitle {
+  text-align:justify;	
+}
 
+.post-entry {
+  text-align:justify; 
+  font-size:1rem;	
+}
 
-
-
-
+.topics {
+  padding-top:2rem;
+}
