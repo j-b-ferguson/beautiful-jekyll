@@ -112,3 +112,7 @@ h1::after {
 .topics {
   padding-top:4rem;
 }
+
+.post-subtitle {
+  text-align:justify;
+}
