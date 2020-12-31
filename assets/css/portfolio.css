@@ -70,6 +70,7 @@ h1::after {
   font-size: 0.9375rem;
   color: #404040;
   opacity: 0.8;
+  text-align: justify;
 }
 
 
