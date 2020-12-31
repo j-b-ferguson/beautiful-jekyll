@@ -5,6 +5,7 @@ subtitle: Justin Ferguson
 css: /assets/css/portfolio.css
 cover-img: /assets/img/portfolio.svg
 port-171220-tags: [Database, Relational Databases, Relational Model, SQL, SQL Query, Oracle Database, SQL Developer, Entity-Relationship Model, Entity-Relationship Diagram, ER Model, ER Diagram, UML, UML Diagram, Normalisation, Business Modelling, Entity-Relationship Model, Functional Dependencies, Business Rules, Sample Data, Data Science, Data]
+port-101220-tags: [Data Science, Data Analysis, Data Visualisation, Report, Analytics, SAS, SAS Enterprise Guide, SAS Studio, SQL, Big Data, Statistics, Statistical Analysis, Statistical Tests, Statistical Methods]
 ---
 
 <section>
@@ -31,7 +32,7 @@ port-171220-tags: [Database, Relational Databases, Relational Model, SQL, SQL Qu
                      The Happy Phone Company is a fictitious retailer of various makes and models of mobile phones. The business requires a new database to help manage data concerning employees, customers, suppliers, phones and contracts.
                      <a href="https://github.com/j-b-ferguson/relational-database-design-and-test" class="post-read-more">[Read&nbsp;More]</a>
                   </div>
-                  <div class="blog-tags col-md-12" style="text-align: justify;">
+                  <div class="blog-tags" style="text-align: justify;">
                         {% for port-171220-tag in page.port-171220-tags %}
                         <a href="/tags#{{ port-171220-tag }}">{{ port-171220-tag }}</a>
                         {% endfor %}
@@ -59,20 +60,9 @@ port-171220-tags: [Database, Relational Databases, Relational Model, SQL, SQL Qu
                   </div>
                   <div class="blog-tags" style="text-align:justify;">
                      <span>Tags:</span>
-                     <a href="https://j-b-ferguson.github.io/tags#data-science">Data Science</a>
-                     <a href="https://j-b-ferguson.github.io/tags#data-cleaning">Data Analysis</a>               
-                     <a href="https://j-b-ferguson.github.io/tags#data-visualisation">Data Visualisation</a>               
-                     <a href="https://j-b-ferguson.github.io/tags#report">Report</a>               
-                     <a href="https://j-b-ferguson.github.io/tags#analytics">Analytics</a>               
-                     <a href="https://j-b-ferguson.github.io/tags#sas">SAS</a>               
-                     <a href="https://j-b-ferguson.github.io/tags#sas-enterprise-guide">SAS Enterprise Guide</a>
-                     <a href="https://j-b-ferguson.github.io/tags#sas-studio">SAS Studio</a>               
-                     <a href="https://j-b-ferguson.github.io/tags#sql">SQL</a>               
-                     <a href="https://j-b-ferguson.github.io/tags#big-data">Big Data</a>               
-                     <a href="https://j-b-ferguson.github.io/tags#statistics">Statistics</a>               
-                     <a href="https://j-b-ferguson.github.io/tags#sas-enterprise-guide">Statistical Analysis</a>               
-                     <a href="https://j-b-ferguson.github.io/tags#sas-enterprise-guide">Statistical Tests</a>               
-                     <a href="https://j-b-ferguson.github.io/tags#sas-enterprise-guide">Statistical Methods</a>          
+                     {% for port-101220-tag in page.port-101220-tags %}
+                     <a href="/tags#{{ port-101220-tag }}">{{ port-101220-tag }}</a>
+                     {% endfor %}
                   </div>
                </article>
                
