@@ -64,3 +64,19 @@ h1::after {
 	font-weight: 400;
   	margin: 0.625rem 0 0;	
 }
+
+.blog-tags {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 0.9375rem;
+  color: #404040;
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
