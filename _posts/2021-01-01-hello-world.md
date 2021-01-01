@@ -12,6 +12,6 @@ comments: true
 tags: [Hello World]
 ---
 
-Hello World!<br>
-I am most enthusiastically able to announce the **live** exposure of my personal website to the world! This shall serve as a hub for me to share all of my project work and more...<br> 
-*Stay tuned* for more announcements and exciting posts!
+Hello World!
+<br>I am most enthusiastically able to announce the **live** exposure of my personal website to the world! This shall serve as a hub for me to share all of my project work and more...
+<br>*Stay tuned* for more announcements and exciting posts!
