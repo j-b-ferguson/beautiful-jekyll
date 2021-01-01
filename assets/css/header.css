@@ -1,0 +1,8 @@
+h1 h2 .postmeta{
+  color:#404040;
+}
+
+h1::after {
+	content: '.';
+	color: #890000; 
+}
