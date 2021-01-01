@@ -51,6 +51,7 @@ h2::after {
   color: #404040;
   opacity: 0.5;
   text-align: justify;
+  padding-top:4rem;
 }
 
 .post-preview {
@@ -87,12 +88,4 @@ h2::after {
 .post-entry {
   text-align:justify; 
   font-size:1rem;
-}
-
-.blog-tags {
-  padding-top:4rem;
-}
-
-.post-subtitle {
-  text-align:justify;
 }
