@@ -64,9 +64,9 @@ layout: page
                      <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
                      </a>
                   </div>
+                  {% endif %}
                   !-->
                   
-                  {% endif %}
                   <div class="post-entry">
                      {% assign excerpt_length = site.excerpt_length | default: 50 %}
                      {{ post.excerpt | strip_newlines | truncatewords: excerpt_length }}
