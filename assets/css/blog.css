@@ -64,3 +64,55 @@ h1::after {
 	font-weight: 400;
   	margin: 0.625rem 0 0;	
 }
+
+.topics {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 0.9375rem;
+  color: #404040;
+  opacity: 0.5;
+  text-align: justify;
+}
+
+.post-preview {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.post-preview .post-meta {
+  color: #808080;
+  font-size: 1.125rem;
+  font-style: italic;
+  margin: 0 0 0.625rem;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.posts-list {
+  margin-top:0px;
+  padding-top:0px;
+}
+
+.container-md {
+  padding-top:1rem;
+}
+
+.post-title {
+  margin-top:0px;
+  padding-top:0px;
+  text-align:justify;
+}
+
+.page-subtitle {
+  text-align:justify;	
+}
+
+.post-entry {
+  text-align:justify; 
+  font-size:1rem;
+}
+
+.topics {
+  padding-top:4rem;
+}
+
+.post-subtitle {
+  text-align:justify;
+}
