@@ -49,6 +49,7 @@ layout: page
       Posted on {{ post.date | date: date_format }}
     </p>
 
+    <!--
     {% if thumbnail != "" %}
     <div class="w-50 img-fluid img-thumbnail float-right ml-4">
       <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
@@ -56,7 +57,8 @@ layout: page
       </a>
     </div>
     {% endif %}
-
+    !-->
+    
     {% unless site.feed_show_excerpt == false %}
     {% if thumbnail != "" %}
     <div class="w-50 img-fluid img-thumbnail float-right ml-4">
