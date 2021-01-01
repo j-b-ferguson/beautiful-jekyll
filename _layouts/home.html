@@ -69,7 +69,7 @@ layout: page
                    
                   <div class="post-entry">
                      {% assign description = page.excerpt | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip |  truncatewords: 50 %}
-                     <meta name="description" content="{{ description }}">
+                     {{ description }}
                      <a href="{{ post.url | absolute_url }}" class="post-read-more">[Read&nbsp;More]</a>                  
                   </div>
                   {% endunless %}
