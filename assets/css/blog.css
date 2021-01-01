@@ -12,12 +12,13 @@ footer {
 	margin-top: auto;
 }
 
-h1 {
+h2 {
+	font-size: 2.25rem;
 	padding-top: 5rem;
 	color: #404040;
 }
 
-h1::after { 
+h2::after { 
 	content: '.';
 	color: #890000; 
 }
