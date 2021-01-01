@@ -18,6 +18,11 @@ h2 {
 	color: #404040;
 }
 
+h1::after { 
+	content: '.';
+	color: #890000; 
+}
+
 h2::after { 
 	content: '.';
 	color: #890000; 
