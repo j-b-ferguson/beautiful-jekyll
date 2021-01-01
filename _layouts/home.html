@@ -23,6 +23,8 @@ layout: page
                   {% endif %}
                   {% endcapture %}
                   {% assign thumbnail=thumbnail | strip %}
+                  
+                  <!--
                   {% if site.feed_show_excerpt == false %}
                   {% if thumbnail != "" %}
                   <div class="post-image post-image-normal">
@@ -32,6 +34,8 @@ layout: page
                   </div>
                   {% endif %}
                   {% endif %}
+                  !-->
+                  
                   <a href="{{ post.url | absolute_url }}">
                      <h2 class="post-title">{{ post.title }}</h2>
                      {% if post.subtitle %}
@@ -45,12 +49,14 @@ layout: page
                      Posted on {{ post.date | date: date_format }}
                   </p>
                   {% if thumbnail != "" %}
-                  <div class="w-50 img-fluid img-thumbnail">
+                  <div class="img-thumbnail float-right"> <!-- <div class="post-image post-image-small"> !-->
                      <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
                      <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
                      </a>
                   </div>
                   {% endif %}
+                  
+                  <!--
                   {% unless site.feed_show_excerpt == false %}
                   {% if thumbnail != "" %}
                   <div class="post-image post-image-short">
@@ -58,6 +64,8 @@ layout: page
                      <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
                      </a>
                   </div>
+                  !-->
+                  
                   {% endif %}
                   <div class="post-entry">
                      {% assign excerpt_length = site.excerpt_length | default: 50 %}
