@@ -45,7 +45,7 @@ layout: page
                      Posted on {{ post.date | date: date_format }}
                   </p>
                   {% if thumbnail != "" %}
-                  <div class="post-image post-image-small">
+                  <div class="w-50 img-fluid img-thumbnail float-right ml-4">
                      <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
                      <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
                      </a>
