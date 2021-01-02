@@ -40,9 +40,9 @@
           {% endif %}
 
           {% if include.type == "post" %}
-            <span class="post-meta" style="color:#404040;">Posted on {{ page.date | date: date_format }}</span>
+            <span class="post-meta" style="color:#808080; text-shadow:none;">Posted on {{ page.date | date: date_format }}</span>
             {% if page.last-updated %}
-              <span class="post-meta" style="color:#808080; text-shadow:none;">
+              <span class="post-meta">
                 <span class="d-none d-md-inline middot">&middot;</span>
                 Last updated {{ page.last-updated | date: date_format }}
               </span>
