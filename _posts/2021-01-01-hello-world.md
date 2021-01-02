@@ -2,7 +2,6 @@
 layout: post
 title: Hello World
 subtitle: Ad maiora!
-cover-img: /assets/img/helloworld.svg
 thumbnail-img: /assets/img/helloworld.jpg
 share-img: /assets/img/helloworld.jpg
 gh-repo: j-b-ferguson
