@@ -4,6 +4,7 @@ title: Hello World
 subtitle: Ad maiora!
 thumbnail-img: /assets/img/helloworld.jpg
 share-img: /assets/img/helloworld.jpg
+cover-img: /assets/img/helloworld.svg
 gh-repo: j-b-ferguson
 gh-badge: [follow]
 comments: true
