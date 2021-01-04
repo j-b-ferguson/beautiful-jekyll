@@ -163,7 +163,7 @@ h1::after {
   }
 }
 
-@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
+@import url('/assets/css/font-awesome.min.css');
 .mb-0 > a {
   display: block;
   position: relative;
