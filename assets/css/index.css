@@ -178,13 +178,13 @@ h1::after {
   content: "\2212";
 }
 
-.card-header a:active {
-  background-color: yellow;
-}
-
-.card-header h5 {
+.card-header a {
   color: #404040;
   font-size: 1.375rem;
   text-shadow: none;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.card-header a:active {
+  background-color: yellow;
 }
