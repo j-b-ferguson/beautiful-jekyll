@@ -13,3 +13,11 @@
 .card-header a {
     text-decoration:none;
 }
+
+a {
+    text-decoration:none;
+}
+
+.container .accordion .card .card-header a {
+    text-decoration:none;
+}
