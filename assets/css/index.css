@@ -177,3 +177,7 @@ h1::after {
 .mb-0 > a[aria-expanded="true"]:after {
   content: "\2212";
 }
+
+a:active {
+  background-color: yellow;
+}
