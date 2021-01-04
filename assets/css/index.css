@@ -185,6 +185,6 @@ h1::after {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.card-header a:active {
-  background-color: yellow;
+.card-header a:hover {
+  color: #890000;
 }
