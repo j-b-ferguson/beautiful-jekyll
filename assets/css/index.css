@@ -181,3 +181,8 @@ h1::after {
 .card-header a:active {
   background-color: yellow;
 }
+
+.card-header h5 {
+  color: #404040;
+  text-shadow: none;
+}
