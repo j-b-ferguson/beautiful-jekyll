@@ -113,68 +113,118 @@ cover-img: /assets/img/background.svg
    <div>
       <h1 class="col-md-12" style="margin-top:0px; padding-top:3rem;">Questions</h1>
    </div>
-   <div class="container">
-      <div id="accordion">
-         <div class="card">
-            <div class="card-header" id="headingOne">
-               <h5 class="mb-0 d-inline">
-                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Collapsible #1
-                  </button>
-               </h5>
-               <a href="#" data-target="[data-parent='#child1']" data-toggle="collapse" class="my-2 float-right">toggle all</a>
-            </div>
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-               <div class="card-body" id="child1">
+   <div id="accordion">
+      <div class="card">
+         <div class="card-header" id="heading-1">
+            <h5 class="mb-0">
+               <a role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+               Item 1
+               </a>
+            </h5>
+         </div>
+         <div id="collapse-1" class="collapse show" data-parent="#accordion" aria-labelledby="heading-1">
+            <div class="card-body">
+               <div id="accordion-1">
                   <div class="card">
-                     <div class="card-header">
-                        <a href="#" data-toggle="collapse" data-target="#collapseOneA" style="text-decoration:none;">Child A</a>
+                     <div class="card-header" id="heading-1-1">
+                        <h5 class="mb-0">
+                           <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-1" aria-expanded="false" aria-controls="collapse-1-1">
+                           Item 1 > 1
+                           </a>
+                        </h5>
                      </div>
-                     <div class="card-body collapse" data-parent="#child1" id="collapseOneA">
-                        Crunch wolf moon tempor, sunt aliqua put a bird.
+                     <div id="collapse-1-1" class="collapse" data-parent="#accordion-1" aria-labelledby="heading-1-1">
+                        <div class="card-body">
+                           <div id="accordion-1-1">
+                              <div class="card">
+                                 <div class="card-header" id="heading-1-1-1">
+                                    <h5 class="mb-0">
+                                       <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-1-1" aria-expanded="false" aria-controls="collapse-1-1-1">
+                                       Item 1 > 1 > 1
+                                       </a>
+                                    </h5>
+                                 </div>
+                                 <div id="collapse-1-1-1" class="collapse" data-parent="#accordion-1-1" aria-labelledby="heading-1-1-1">
+                                    <div class="card-body">
+                                       Text 1 > 1 > 1
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="card">
+                                 <div class="card-header" id="heading-1-1-2">
+                                    <h5 class="mb-0">
+                                       <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-1-2" aria-expanded="false" aria-controls="collapse-1-1-2">
+                                       Item 1 > 1 > 2
+                                       </a>
+                                    </h5>
+                                 </div>
+                                 <div id="collapse-1-1-2" class="collapse" data-parent="#accordion-1-1" aria-labelledby="heading-1-1-2">
+                                    <div class="card-body">
+                                       Text 1 > 1 > 2
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="card">
+                                 <div class="card-header" id="heading-1-1-3">
+                                    <h5 class="mb-0">
+                                       <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-1-3" aria-expanded="false" aria-controls="collapse-1-1-3">
+                                       Item 1 > 1 > 3
+                                       </a>
+                                    </h5>
+                                 </div>
+                                 <div id="collapse-1-1-3" class="collapse" data-parent="#accordion-1-1" aria-labelledby="heading-1-1-3">
+                                    <div class="card-body">
+                                       Text 1 > 1 > 3
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
                      </div>
                   </div>
                   <div class="card">
-                     <div class="card-header">
-                        <a href="#" data-toggle="collapse" data-target="#collapseOneB">Child B</a>
+                     <div class="card-header" id="heading-1-2">
+                        <h5 class="mb-0">
+                           <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-2" aria-expanded="false" aria-controls="collapse-1-2">
+                           Item 1 > 2
+                           </a>
+                        </h5>
                      </div>
-                     <div class="card-body collapse" data-parent="#child1" id="collapseOneB">
-                        Another flipp runch wolf moon tempor, sunt aliqua put a bird.
+                     <div id="collapse-1-2" class="collapse" data-parent="#accordion-1" aria-labelledby="heading-1-2">
+                        <div class="card-body">
+                           Text 1 > 2
+                        </div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
-         <div class="card">
-            <div class="card-header" id="headingTwo">
-               <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Collapsible #2
-                  </button>
-               </h5>
-            </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-               <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                  on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
-                  raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-               </div>
+      </div>
+      <div class="card">
+         <div class="card-header" id="heading-2">
+            <h5 class="mb-0">
+               <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+               Item 2
+               </a>
+            </h5>
+         </div>
+         <div id="collapse-2" class="collapse" data-parent="#accordion" aria-labelledby="heading-2">
+            <div class="card-body">
+               Text 2
             </div>
          </div>
-         <div class="card">
-            <div class="card-header" id="headingThree">
-               <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Collapsible #3
-                  </button>
-               </h5>
-            </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-               <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                  on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
-                  raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-               </div>
+      </div>
+      <div class="card">
+         <div class="card-header" id="heading-3">
+            <h5 class="mb-0">
+               <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+               Item 3
+               </a>
+            </h5>
+         </div>
+         <div id="collapse-3" class="collapse" data-parent="#accordion" aria-labelledby="heading-3">
+            <div class="card-body">
+               Text 3
             </div>
          </div>
       </div>
