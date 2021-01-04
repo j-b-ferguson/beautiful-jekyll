@@ -181,7 +181,8 @@ h1::after {
 
 .card-header a {
   color: #404040;
-  font-size: 1.375rem;
+  font-size: 1.125rem;
+  font-weight: 400;
   text-shadow: none;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
