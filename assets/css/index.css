@@ -130,7 +130,7 @@ h1::after {
 }
 
 .timeline ul li:nth-child(even) .content {
-  left: calc(-300px - 20px);
+  left: 20px;
 }
 
 .timeline ul li:nth-child(even) .content:before {
