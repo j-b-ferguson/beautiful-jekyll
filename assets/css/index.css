@@ -163,19 +163,17 @@ h1::after {
   }
 }
 
-@import url('/assets/css/font-awesome.min.css');
 .mb-0 > a {
   display: block;
   position: relative;
 }
 
 .mb-0 > a:after {
-  content: "\f078"; /* fa-chevron-down */
-  font-family: 'FontAwesome';
+  content: "\002B";
   position: absolute;
   right: 0;
 }
 
 .mb-0 > a[aria-expanded="true"]:after {
-  content: "\f077"; /* fa-chevron-up */
+  content: "\2212";
 }
