@@ -67,7 +67,7 @@ h1::after {
 
 .timeline ul li {
   background: #f9f9ff;
-  position: relative;
+  position: static;
   margin: 0 auto;
   width: 2px;
   padding-bottom: 40px;
