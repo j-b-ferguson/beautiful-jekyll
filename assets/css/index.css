@@ -122,19 +122,19 @@ h1::after {
 }
 
 .timeline ul li:nth-child(odd) .content {
-  left: 20px;
+  left: 50px;
 }
 
 .timeline ul li:nth-child(odd) .content:before {
-  left: -20px;
+  left: -38px;
 }
 
 .timeline ul li:nth-child(even) .content {
-  left: calc(-330px - 20px);
+  left: calc(-360px - 45px);
 }
 
 .timeline ul li:nth-child(even) .content:before {
-  right: -20px;
+  right: -38px;
 }
 
 @media screen and (max-width: 1020px) {
