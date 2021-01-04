@@ -121,21 +121,6 @@ h1::after {
   color: #222;
 }
 
-.timeline ul li:nth-child(odd) .content {
-  left: 50px;
-}
-
-.timeline ul li:nth-child(odd) .content:before {
-  left: -38px;
-}
-
-.timeline ul li:nth-child(even) .content {
-  left: calc(-360px - 45px);
-}
-
-.timeline ul li:nth-child(even) .content:before {
-  right: -38px;
-}
 @media screen and (max-width: 1020px) {
   .timeline ul li .content {
     width: 41vw;
