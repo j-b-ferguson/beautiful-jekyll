@@ -5,7 +5,6 @@ subtitle: Ad maiora!
 thumbnail-img: /assets/img/helloworld.jpg
 share-img: /assets/img/helloworld.jpg
 cover-img: /assets/img/helloworld.svg
-head-extra: favicon.html
 gh-repo: j-b-ferguson
 gh-badge: [follow]
 comments: true
