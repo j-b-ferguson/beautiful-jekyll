@@ -14,9 +14,9 @@ author: Justin Ferguson
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  About: "index"
   Portfolio: "portfolio"
   Blog: "blog"
-  Resume: "resume"
 
 # --- Logo --- #
 
