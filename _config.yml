@@ -15,8 +15,8 @@ author: Justin Ferguson
 
 navbar-links:
   About: "index"
-  Portfolio: "portfolio"
-  Blog: "blog"
+  Portfolio: "/_pages/portfolio.html"
+  Blog: "/_pages/blog.html"
 
 # --- Logo --- #
 
@@ -44,7 +44,7 @@ social-network-links:
 #  patreon: DeanAttali
 #  youtube: c/daattali
 #  reddit: yourname
-  linkedin: jf2749
+  linkedin: j-b-ferguson
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
