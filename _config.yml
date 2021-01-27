@@ -15,8 +15,8 @@ author: Justin Ferguson
 
 navbar-links:
   About: "index"
-  Portfolio: "/pages/portfolio.html"
-  Blog: "/pages/blog.html"
+  Portfolio: "/pages/portfolio"
+  Blog: "/pages/blog"
 
 # --- Logo --- #
 
