@@ -6,6 +6,7 @@ css: /assets/css/portfolio.css
 cover-img: /assets/img/portfolio.svg
 share-img: /assets/img/Professional photo.png
 share-title: "Justin Ferguson | My Portfolio"
+port-290121-topics: [Data Science;, Data Analysis;, Data Visualisation;, Linear Regression;, Regression Models;, Regression Analysis;, Predictive Modelling;, Time-Series Analysis;, R;, RStudio;, ggplot2;, mlr;]
 port-171220-topics: [Database;, Big Data;, ETL;, Relational Databases;, Relational Model;, SQL;, SQL Query;, Oracle Database;, SQL Developer;, Entity-Relationship Model;, Entity-Relationship Diagram;, ER Model;, ER Diagram;, UML;, UML Diagram;, Normalisation;, Business Modelling;, Entity-Relationship Model;, Functional Dependencies;, Business Rules;, Sample Data;, Data Science;, Data.]
 port-101220-topics: [Data Science;, Data Analysis;, Data Visualisation;, Data Mining;, Report;, Analytics;, SAS;, SAS Enterprise Guide;, SAS Studio;, SQL;, Big Data;, Statistics;, Statistical Analysis;, Statistical Tests;, Statistical Methods.]
 port-021220-topics: [R;, RStudio;, Data Cleaning;, Data Processing;, Data Visualisation;, Data Science;, Data Mining;, Big Data;, Machine Learning;, Tidy Data Principles;, Imputation;, Data Analysis;, Statistics;, ggplot2;, K-nearest neighbours;, Algorithms;, Data Structures.]
@@ -16,6 +17,33 @@ port-021220-topics: [R;, RStudio;, Data Cleaning;, Data Processing;, Data Visual
       <div class="row">
          <div class="col-md-12">
             <div class="posts-list">
+               
+               <article class="post-preview">
+                  <a href="/pages/covid-19-regression-analysis.html">
+                     <h1 class="post-title">A Predictive Model to Forecast Victorian COVID-19 Cases</h1>
+                     <h3 class="post-subtitle">
+                        Using regression analysis to create a prediction model to forecast Victorian COVID-19 cases.
+                     </h3>
+                  </a>
+                  <p class="post-meta">
+                     Posted on January 29, 2021
+                  </p>
+                  <div class="w-50 img-fluid img-thumbnail float-right ml-4">
+                     <a href="/pages/covid-19-regression-analysis.html" aria-label="Thumbnail">
+                     <img src="/assets/img/virus.jpeg" alt="Post thumbnail">
+                     </a>
+                  </div>
+                  <div class="post-entry">
+                     In this notebook, a predictive model using OLS (Ordinary Least Squares) multiple linear regression is created to forecast next day COVID-19 cases in the state of Victoria. Such considerations are of great importance in the current health climate. For example, a model to predict next day cases might be important in enabling the timely allocation of resources to hospitals for immediate patient treatment.
+                     <a href="/pages/covid-19-regression-analysis.html" class="post-read-more">[Read&nbsp;More]</a>
+                  </div>
+                  <div class="topics">
+                        {% for port-171220-topic in page.port-171220-topics %}
+                        {{ port-171220-topic }}
+                        {% endfor %}
+                  </div>
+               </article> 
+               
                <article class="post-preview">
                   <a href="/pages/relational-database-design-and-test.html">
                      <h1 class="post-title">Designing and Testing a Relational Database</h1>
