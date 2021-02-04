@@ -6,6 +6,7 @@ css: /assets/css/portfolio.css
 cover-img: /assets/img/portfolio.svg
 share-img: /assets/img/Professional photo.png
 share-title: "Justin Ferguson | My Portfolio"
+port-030221-topics: [Prediction Model;, Regression Model;, R;, RStudio;, Shiny;, Shiny Dashboard;, Shiny App;, Web App;, Dashboard App;, HTML5;, CSS3;, COVID-19;, COVID-19 Data.]
 port-290121-topics: [Data Science;, Data Analysis;, Data Visualisation;, Linear Regression;, Regression Models;, Regression Analysis;, Predictive Modelling;, Time-Series Analysis;, R;, RStudio;, ggplot2;, mlr; COVID-19;, COVID-19 data.]
 port-171220-topics: [Database;, Big Data;, ETL;, Relational Databases;, Relational Model;, SQL;, SQL Query;, Oracle Database;, SQL Developer;, Entity-Relationship Model;, Entity-Relationship Diagram;, ER Model;, ER Diagram;, UML;, UML Diagram;, Normalisation;, Business Modelling;, Entity-Relationship Model;, Functional Dependencies;, Business Rules;, Sample Data;, Data Science;, Data.]
 port-101220-topics: [Data Science;, Data Analysis;, Data Visualisation;, Data Mining;, Report;, Analytics;, SAS;, SAS Enterprise Guide;, SAS Studio;, SQL;, Big Data;, Statistics;, Statistical Analysis;, Statistical Tests;, Statistical Methods.]
@@ -17,6 +18,32 @@ port-021220-topics: [R;, RStudio;, Data Cleaning;, Data Processing;, Data Visual
       <div class="row">
          <div class="col-md-12">
             <div class="posts-list">
+               
+               <article class="post-preview">
+                  <a href="/pages/covid-19-cases-predict-web-app.html">
+                     <h1 class="post-title">An R Shiny Web App to Predict COVID-19 Next Day Cases</h1>
+                     <h3 class="post-subtitle">
+                        An R Shiny web app to predict COVID-19 next day cases.
+                     </h3>
+                  </a>
+                  <p class="post-meta">
+                     Posted on February 3, 2021
+                  </p>
+                  <div class="w-50 img-fluid img-thumbnail float-right ml-4">
+                     <a href="/pages/covid-19-cases-predict-web-app.html" aria-label="Thumbnail">
+                     <img src="/assets/img/predict.jpeg" alt="Post thumbnail">
+                     </a>
+                  </div>
+                  <div class="post-entry">
+                     Using my COVID-19 prediction model, I combine both R Shiny and R Shiny Dashboard, with HTML5 and CSS3, to design a simple, yet elegant web application to predict COVID-19 next day cases.
+                     <a href="/pages/covid-19-cases-predict-web-app.html" class="post-read-more">[Read&nbsp;More]</a>
+                  </div>
+                  <div class="topics">
+                        {% for port-030221-topic in page.port-030221-topics %}
+                        {{ port-030221-topic }}
+                        {% endfor %}
+                  </div>
+               </article> 
                
                <article class="post-preview">
                   <a href="/pages/covid-19-regression-analysis.html">
