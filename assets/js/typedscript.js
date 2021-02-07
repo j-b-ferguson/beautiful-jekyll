@@ -13,7 +13,9 @@ function typeWords() {
 		* @property {string} stringsElement ID of element containing string children
 		*/
 		
-		strings: [pro.fontcolor( "black" ) + "<span style='font-weight:900;'>R/RStudio</span>", 
+		strings: [pro.fontcolor( "black" ) + "<span style='font-weight:900;'>R/RStudio</span>",
+			  pro.fontcolor( "black" ) + "<span style='font-weight:900;'>RShiny</span>",
+			  pro.fontcolor( "black" ) + "<span style='font-weight:900;'>RMarkdown</span>",
 			  pro.fontcolor( "black" ) + "<span style='font-weight:900;'>SAS</span>", 
 			  pro.fontcolor( "black" ) + "<span style='font-weight:900;'>SQL</span>", 
 			  pro.fontcolor( "black" ) + "<span style='font-weight:900;'>Excel</span>",
@@ -26,19 +28,21 @@ function typeWords() {
 			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>Mathematical Modelling</span>",
 			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>Statistical Testing</span>",
 			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>Statistical Methods</span>",
+			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>Regression Models</span>",
 			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>Machine Learning</span>",
+			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>Predictive Analytics</span>",
 			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>Tidy Data Principles</span>",
 			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>Data Cleaning</span>",
 			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>Data Visualisation</span>",
 			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>Data Analysis</span>",
 			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>Data Management</span>",
+			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>ETL</span>",
 			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>SQL Queries</span>",
-			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>The Relational Model</span>",
+			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>Database Design</span>",
 			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>Relational Databases</span>",
 			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>ER Modelling</span></span>",
-			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>UML</span>",
-			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>Excel Pivot Tables</span>",
-			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>Excel Pivot Charts</span>"
+			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>Pivot Tables</span>",
+			  kno.fontcolor( "black" ) + "<span style='font-weight:900;'>Pivot Charts</span>"
 			 ],
 		stringsElement: null,
 
