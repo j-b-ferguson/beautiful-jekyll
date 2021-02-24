@@ -6,6 +6,7 @@ css: /assets/css/portfolio.css
 cover-img: /assets/img/portfolio.svg
 share-img: /assets/img/Professional photo.png
 share-title: "Justin Ferguson | My Portfolio"
+port-160221-topics: [Reporting;, Data Science;, Data Analysis;, Data Visualisation;, Non-Parametric Methods;, Time-Series;, Shape File Maps;, ggplot2;, RMarkdown;, R;, RStudio;, COVID-19;, COVID-19 Data.]
 port-030221-topics: [Prediction Model;, Regression Model;, Linear Regression;, R;, RStudio;, Shiny;, Shiny Dashboard;, Shiny App;, Web App;, Dashboard App;, Data Science;, Data Analysis;, Data Visualisation;, HTML5;, CSS3;, COVID-19;, COVID-19 Data.]
 port-290121-topics: [Data Science;, Data Analysis;, Data Visualisation;, Linear Regression;, Regression Models;, Regression Analysis;, Predictive Modelling;, Time-Series Analysis;, R;, RStudio;, ggplot2;, mlr; COVID-19;, COVID-19 data.]
 port-171220-topics: [Database;, Big Data;, ETL;, Relational Databases;, Relational Model;, SQL;, SQL Query;, Oracle Database;, SQL Developer;, Entity-Relationship Model;, Entity-Relationship Diagram;, ER Model;, ER Diagram;, UML;, UML Diagram;, Normalisation;, Business Modelling;, Entity-Relationship Model;, Functional Dependencies;, Business Rules;, Sample Data;, Data Science;, Data.]
@@ -18,6 +19,32 @@ port-021220-topics: [R;, RStudio;, Data Cleaning;, Data Processing;, Data Visual
       <div class="row">
          <div class="col-md-12">
             <div class="posts-list">
+               <article class="post-preview">
+                  <a href="/portfolio/COVID-19 report.pdf">
+                     <h1 class="post-title">COVID-19 Australia Situation Report</h1>
+                     <h3 class="post-subtitle">
+                        A report to summarise important COVID-19 metrics. 
+                     </h3>
+                  </a>
+                  <p class="post-meta">
+                     Posted on February 16, 2021
+                  </p>
+                  <div class="w-50 img-fluid img-thumbnail float-right ml-4">
+                     <a href="/portfolio/COVID-19 report.pdf" aria-label="Thumbnail">
+                     <img src="/assets/img/COVID-19 Report.jpg" alt="Post thumbnail">
+                     </a>
+                  </div>
+                  <div class="post-entry">
+                     Using publically available COVID-19 data, I summarise important COVID-19 metrics with insightful time-series plots and shape file maps.
+                     <a href="/portfolio/COVID-19 report.pdf" class="post-read-more">[Read&nbsp;More]</a>
+                  </div>
+                  <br>
+                  <div class="topics">
+                        {% for port-160221-topic in page.port-160221-topics %}
+                        {{ port-160221-topic }}
+                        {% endfor %}
+                  </div>
+               </article> 
                
                <article class="post-preview">
                   <a href="/pages/covid-19-cases-predict-web-app.html">
